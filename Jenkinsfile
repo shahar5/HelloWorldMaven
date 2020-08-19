@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                withMaven(maven : 'apache-maven-3.3.9', mavenSettingsConfig: 'settings.xml'){
+                withMaven(maven : 'apache-maven-3.3.9'){
                         bat "mvn clean compile"
                 }
             }
