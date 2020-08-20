@@ -2,7 +2,7 @@ VM –
 Platform: AWS
 Type: EC2
 OS: Ubuntu 18.04 LTS
---------------------------------------
+
 Commands –
 
 1.	sudo apt-get install docker –y
@@ -32,7 +32,7 @@ Commands –
 sudo docker exec -it jen-mav-co2 mvn --version
 
 14. # set jave & maven home dirs
-# UI -> Manage Jenkins -> Global Tool Configuration
+ UI -> Manage Jenkins -> Global Tool Configuration
 ![alt text](https://github.com/shahar5/HelloWorldMaven/blob/master/bakery-ent-chg/Java%20home%20dir.PNG)
 ![alt text](https://github.com/shahar5/HelloWorldMaven/blob/master/bakery-ent-chg/Maven%20home%20dir.PNG)
 
@@ -48,6 +48,7 @@ sudo docker exec -it jen-mav-co2 mvn --version
 [Console Outpot log](https://github.com/shahar5/HelloWorldMaven/blob/master/bakery-ent-chg/Console%20Outpot%20log.txt)
 
 19. Artifacts after build
+
 ![alt text](https://github.com/shahar5/HelloWorldMaven/blob/master/bakery-ent-chg/Artifacts%20after%20build.PNG)
 
 [POM file](https://github.com/shahar5/HelloWorldMaven/blob/master/bakery-ent-chg/HelloWorldMaven-1.0.4-SNAPSHOT.pom)
