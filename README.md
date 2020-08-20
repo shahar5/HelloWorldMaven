@@ -1,11 +1,11 @@
 # HelloWorldMaven
 
-###### VM 
-Platform: AWS
-Type: EC2
-OS: Ubuntu 18.04 LTS
+### VM 
+- Platform: AWS
+- Type: EC2
+- OS: Ubuntu 18.04 LTS
 
-###### Commands
+### Commands
 ```
 1.	sudo apt-get install docker –y
 2.	mkdir Jenkins_container
